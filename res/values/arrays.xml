@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string-array name="omcs">
+        <item>"br_sp2sys      "</item>
+        <item>"br_sp3sys      "</item>
+    </string-array>
+    
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/layout_root_sv"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" android:layout_height="wrap_content"
+	android:id="@+id/layout_root" android:paddingRight="3dip"
+	 android:shrinkColumns="1">
+
+	<TableRow>
+		<TextView android:id="@+id/h_nename" android:text="NE Name: "
+			android:padding="0dip" />
+		<TextView android:id="@+id/nename" android:paddingRight="3dip" />
+	</TableRow>
+	<TableRow>
+		<TextView android:id="@+id/h_incid" android:text="Incident ID: "
+			android:padding="0dip" />
+		<TextView android:id="@+id/incid" android:paddingRight="3dip" />
+	</TableRow>
+	<TableRow>
+		<TextView android:id="@+id/h_rate" android:text="Rating: "
+			android:padding="0dip" />
+		<TextView android:id="@+id/rate" android:paddingRight="3dip" />
+	</TableRow>
+	<TableRow>
+		<TextView android:id="@+id/h_rank" android:text="Rank: "
+			android:padding="0dip" />
+		<TextView android:id="@+id/rank" android:paddingRight="3dip" />
+	</TableRow>
+	<TableRow>
+		<TextView android:id="@+id/h_type" android:text="Type: "
+			android:padding="0dip" />
+		<TextView android:id="@+id/type" android:paddingRight="3dip" />
+	</TableRow>
+	<TableRow>
+		<TextView android:id="@+id/h_sev" android:text="Severity: "
+			android:padding="0dip" />
+		<TextView android:id="@+id/sev" android:paddingRight="3dip" />
+	</TableRow>
+	<TableRow>
+		<TextView android:id="@+id/h_almname" android:text="Alarm Name: "
+			android:padding="0dip" />
+		<TextView android:id="@+id/almname" android:paddingRight="3dip" />
+	</TableRow>
+	<TableRow>
+		<TextView android:id="@+id/h_almtext" android:text="Alarm Text: "
+			android:padding="0dip" />
+		<TextView android:id="@+id/almtext" android:paddingRight="3dip" />
+	</TableRow>
+	<TableRow>
+		<TextView android:id="@+id/h_time" android:text="Time: "
+			android:padding="0dip" />
+		<TextView android:id="@+id/time" android:paddingRight="3dip" />
+	</TableRow>
+	<TableRow>
+		<TextView android:id="@+id/h_addtl" android:text="Addtl Text: "
+			android:padding="0dip" />
+		<TextView android:id="@+id/addtl" android:paddingRight="3dip" />
+	</TableRow>
+	<!--<TableRow>
+		<Button android:id="@+id/sendsms" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="Send as SMS"
+			style="?android:attr/buttonStyleSmall"
+			android:layout_alignParentTop="true" android:layout_alignParentLeft="true">
+		</Button>
+		<Button android:id="@+id/close" android:layout_width="10dip"
+			android:layout_height="wrap_content" android:text="Close"
+			style="?android:attr/buttonStyleSmall" 
+			android:layout_alignParentTop="true" android:layout_alignParentLeft="true">
+		</Button>
+	</TableRow>
+	<View android:layout_height="2	dip" android:background="#FF909090" />
+
+--></TableLayout>
+
+</ScrollView>
+
